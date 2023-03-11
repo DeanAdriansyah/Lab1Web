@@ -1,0 +1,93 @@
+/* Navbar */
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family:Arial;
+} 
+nav ul {
+    background:#008B8B;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+nav ul li{
+    float:left;
+}
+nav ul li:hover{
+    background:#ffffff;
+}
+nav ul li:hover a{
+     color:#008B8B;
+}
+nav ul li a{
+     display: block;
+     padding: 25px;
+     color: #fff;
+     text-decoration: none;
+}
+.div-container {
+    margin: 20px;
+}
+
+/* Hello */
+.hello {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    margin:0;
+    padding:10px;
+    background: #808080;
+    height:400px;
+}
+.word {
+    margin:10px;
+    color:white;
+    padding:10px;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.btn {
+    background:#008B8B;
+    color:white;
+    size:100%;
+    padding:10px 10px 10px 10px;
+    align:center;
+    border:1px solid white;
+    text-decoration: none;
+}
+
+/* content */
+.rounded-circle {
+    width: 120px;
+      height: 120px;
+      background: #dac52c;
+      border-radius: 100%;
+  }
+
+/* Aside Table */
+.table {
+    margin:10px;
+}
+.table-header {
+    background:#008B8B;
+}
+
+/* Article */
+.jarak {
+    display:grid;
+    grid-template-columns: 75% auto;
+}
+.warna {
+    color:white;
+    background:#008b8b57;
+}
+
+/* Footer */
+.footer {
+    margin:0;
+    color: white;
+    background:#008B8B;
+    height:100px
+  }
